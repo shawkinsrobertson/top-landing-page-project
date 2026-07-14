@@ -5,10 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TOP Landing Page Project</title>
         <link rel="stylesheet" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
     </head>
     <body>
         <header>
-            <img id="header-logo" src="" alt="Logo"/>
+            <h1 id="header-logo">Header Logo</h1>
             <nav>
                 <a href="#">link 1</a>
                 <a href="#">link 2</a>
@@ -21,32 +24,38 @@
                 <p>This landing page has some really cool colors, fonts, and maybe even images.</p>
                 <button>Take action</button>
             </div>
-            <img id="hero-image" src="" alt=""/>
+            <div id="hero-img-placeholder">
+                <p>this is a placeholder for an image</p>
+            </div>
         </section>
         <section id="info-box">
             <h3>The Info Box Title</h3>
-            <div class="shape-with-text">
-                <div class="shape"></div>
-                <p>the subtext for the shape</p>
+            <div id="info-shapes">
+                <div class="shape-with-text">
+                    <div class="shape"></div>
+                    <p>the subtext for the shape</p>
+                </div>
+                <div class="shape-with-text">
+                    <div class="shape"></div>
+                    <p>the subtext for the shape</p>
+                </div>
+                <div class="shape-with-text">
+                    <div class="shape"></div>
+                    <p>the subtext for the shape</p>
+                </div>
+                <div class="shape-with-text">
+                    <div class="shape"></div>
+                    <p>the subtext for the shape</p>
+                </div>
             </div>
-            <div class="shape-with-text">
-                <div class="shape"></div>
-                <p>the subtext for the shape</p>
-            </div>
-            <div class="shape-with-text">
-                <div class="shape"></div>
-                <p>the subtext for the shape</p>
-            </div>
-            <div class="shape-with-text">
-                <div class="shape"></div>
-                <p>the subtext for the shape</p>
-            </div>
-        </section>
+            </section>
         <section id="big-quote">
-            <blockquote>
-                <p>"The moon blew up without warning and for no apparent reason." </p>
-                <p>- Neal Stephenson<em>Seveneves</em></p>
-            </blockquote>
+            <figure>
+                <blockquote>
+                    <p>"The moon blew up without warning and for no apparent reason." </p>
+                </blockquote>
+                <figcaption>- Neal Stephenson, <strong>Seveneves</strong></figcaption>
+            </figure>
         </section>
         <section id="cta">
             <div id="cta-box">
@@ -54,7 +63,7 @@
                     <h4>This is the call to action!</h4>
                     <p>If you've been waiting for a sign to do something, this might be it (but it might also be something random on the internet).</p>
                 </div>
-                <button>Do</button>
+                <button id="cta-btn">Do</button>
             </div>
         </section>
     </body>
